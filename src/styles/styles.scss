@@ -1,5 +1,6 @@
 @import './base/settings';
 @import './base/base';
+@import './base/_container.scss';
 @import './components/box-layout';
 @import './components/button';
 @import './components/header';
@@ -11,3 +12,11 @@
 @import './components/visibility';
 @import './components/list';
 @import './components/loader';
+
+// indecision styles
+@import './components/indecision/_add-option.scss';
+@import './components/indecision/_button.scss';
+@import './components/indecision/_header.scss';
+@import './components/indecision/_modal.scss';
+@import './components/indecision/_widget.scss';
+@import './components/indecision/_option.scss';

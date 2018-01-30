@@ -1,8 +1,9 @@
 import React from 'react';
+import MenuOptions from './MenuOptions';
 
 const DashboardPage = () => (
   <div>
-    Dashboard page content
+    <MenuOptions />
   </div>
 );
 
