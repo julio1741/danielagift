@@ -19,7 +19,7 @@ export class EditExpensePage extends React.Component {
             <div>
                 <div className="page-header">
                     <div className="content-container">
-                        <h1 className="pahe-header__title">Edit Expense</h1>
+                        <h1 className="pahe-header__title">Editar Gasto</h1>
                     </div>
                 </div>
                 <div className="content-container">

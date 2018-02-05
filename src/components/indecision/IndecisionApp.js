@@ -67,8 +67,8 @@ class IndecisionApp extends React.Component {
     }
 
     render() {
-        const title = 'Indecision';
-        const subTitle = 'Put your life in the hands of a computer';
+        const title = 'Indecisiones';
+        const subTitle = 'Amor esto es para cuando no sepams que hacer!';
         const options = ['Thing one', 'Thing two', 'Thing gour']
         return (
             <div>

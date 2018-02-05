@@ -6,15 +6,15 @@ import selectExpenses from '../../selectors/expensify/expenses';
 import selectExpensesTotal from '../../selectors/expensify/expenses-total';
 
 export const ExpensesSummary = ({ expenseCount, expensesTotal }) => {
-  const expenseWord = expenseCount === 1 ? 'expense' : 'expenses' ;
+  const expenseWord = expenseCount === 1 ? 'gasto' : 'gastos' ;
   const formattedExpensesTotal = numeral(expensesTotal / 100).format('$0,0.00');
   
   return (
     <div className="page-header">
       <div className="content-container">
-        <h1 className="page-header__title">Viewing <span>{expenseCount}</span> {expenseWord} totalling <span>{formattedExpensesTotal}</span></h1>
+        <h1 className="page-header__title">Viendo <span>{expenseCount}</span> {expenseWord} de un total de <span>{formattedExpensesTotal}</span></h1>
         <div className="page-header__action" >
-          <Link className="button" to="/create">Add Expense </Link>
+          <Link className="button" to="/create">Agregar Gasto</Link>
         </div>
       </div>
     </div>
